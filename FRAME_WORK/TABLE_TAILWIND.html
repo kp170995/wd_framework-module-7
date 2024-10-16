@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Table with Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden w-2/3">
+        <div class="p-4 border-b">
+            <h2 class="text-xl font-semibold">Basic Table</h2>
+            <a href="#" class="text-blue-500 hover:underline">Basic table with card</a>
+        </div>
+        <div class="p-4">
+            <table class="min-w-full border-collapse block md:table">
+                <thead class="block md:table-header-group">
+                    <tr class="border border-gray-200 md:border-none block md:table-row">
+                        <th class="bg-gray-200 p-2 text-gray-600 font-bold md:border md:border-gray-200 text-left block md:table-cell">NAME</th>
+                        <th class="bg-gray-200 p-2 text-gray-600 font-bold md:border md:border-gray-200 text-left block md:table-cell">ID NO.</th>
+                        <th class="bg-gray-200 p-2 text-gray-600 font-bold md:border md:border-gray-200 text-left block md:table-cell">CREATED ON</th>
+                        <th class="bg-gray-200 p-2 text-gray-600 font-bold md:border md:border-gray-200 text-left block md:table-cell">STATUS</th>
+                    </tr>
+                </thead>
+                <tbody class="block md:table-row-group">
+                    <tr class="bg-white border border-gray-200 md:border-none block md:table-row">
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">Samso Park</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">34424433</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">12 May 2017</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">
+                            <span class="bg-red-500 text-white py-1 px-2 rounded text-sm">Pending</span>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border border-gray-200 md:border-none block md:table-row">
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">Merlo Sanki</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">53425532</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">15 May 2015</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">
+                            <span class="bg-yellow-500 text-white py-1 px-2 rounded text-sm">In progress</span>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border border-gray-200 md:border-none block md:table-row">
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">John Ryte</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">53275533</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">14 May 2017</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">
+                            <span class="bg-blue-500 text-white py-1 px-2 rounded text-sm">Fixed</span>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border border-gray-200 md:border-none block md:table-row">
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">Peter Mark</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">53275534</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">16 May 2017</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">
+                            <span class="bg-green-500 text-white py-1 px-2 rounded text-sm">Completed</span>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border border-gray-200 md:border-none block md:table-row">
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">Dave</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">53275535</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">20 May 2017</td>
+                        <td class="p-2 md:border md:border-gray-200 text-left block md:table-cell">
+                            <span class="bg-yellow-500 text-white py-1 px-2 rounded text-sm">In progress</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
